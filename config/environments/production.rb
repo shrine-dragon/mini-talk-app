@@ -6,7 +6,7 @@ Rails.application.configure do
 
   ActionCable.server.config.disable_request_forgery_protection = true
   config.action_cable.url = "wss://mini-talk-app-32405.herokuapp.com/cable" 
-  config.action_cable.allowed_request_origins = ['https://mini-tald-app-32405.herokuapp.com', 'http://mini-talk-app-32405.herokuapp.com']  
+  config.action_cable.allowed_request_origins = ['https://mini-talk-app-32405.herokuapp.com', 'http://mini-talk-app-32405.herokuapp.com']  
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
