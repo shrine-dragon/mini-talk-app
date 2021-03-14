@@ -9,8 +9,8 @@ Rails.application.configure do
   config.action_cable.allowed_request_origins = ['https://mini-talk-app-32405.herokuapp.com', 'http://mini-talk-app-32405.herokuapp.com']
 
   ActionCable.server.config.disable_request_forgery_protection = true
-  config.action_cable.url = "ws://【Elastic IP】/cable" 
-  config.action_cable.allowed_request_origins = ['http://【Elastic IP】']
+  config.action_cable.url = "ws://3.141.68.194/cable" 
+  config.action_cable.allowed_request_origins = 'http://3.141.68.194'
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
