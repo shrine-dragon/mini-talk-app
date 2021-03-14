@@ -5,10 +5,6 @@ Rails.application.configure do
   config.cache_classes = true
 
   ActionCable.server.config.disable_request_forgery_protection = true
-  config.action_cable.url = "wss://mini-talk-app-32405.herokuapp.com/cable" 
-  config.action_cable.allowed_request_origins = ['https://mini-talk-app-32405.herokuapp.com', 'http://mini-talk-app-32405.herokuapp.com']
-
-  ActionCable.server.config.disable_request_forgery_protection = true
   config.action_cable.url = "ws://3.141.68.194/cable" 
   config.action_cable.allowed_request_origins = 'http://3.141.68.194'
 
